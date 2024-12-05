@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif; 
+}
+
+
+.titulo h1 {
+    color: #3D3D3D;
+    background-color: #E1EDF2; /
+    
+}
+
+
+h2 {
+    border-bottom: 2px solid #3D3D3D; 
+    padding-bottom: 5px; /
+}
+
+/* Style for figures */
+figure {
+    text-align: center; 
+    background-color: #F5F5F5; 
+    color: lightgray; 
+    padding: 15px; 
+    margin: 20px; 
+}
