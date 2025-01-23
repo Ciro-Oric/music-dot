@@ -3,7 +3,8 @@ body {
 }
 
 
-.titulo h1 {
+.titulo {
+    font-size: 35px;
     color: #3D3D3D;
     background-color: #E1EDF2; /
     
@@ -36,4 +37,11 @@ h2 {
 }
 #imgfamilia{
     width: 275px;
+}
+
+.linha{
+    margin-bottom: 70px;
+}
+figcaption {
+    color: rgb(71, 69, 69);
 }
