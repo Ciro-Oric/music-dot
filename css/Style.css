@@ -15,11 +15,25 @@ h2 {
     padding-bottom: 5px; /
 }
 
-/* Style for figures */
-figure {
+
+.Matriz {
     text-align: center; 
     background-color: #F5F5F5; 
     color: lightgray; 
-    padding: 15px; 
-    margin: 20px; 
+    padding: 10px 10px 25px 10px; 
+    margin: 50px 250px 50px 250px;
+    width: 550px;
+}
+#imgmatriz {
+    width: 550px;
+}
+.Familia {
+    float: right;
+    background-color:#F5F5F5 ;
+    color: lightgray;
+    width: 275px;
+    padding: 10px 10px 25px 10px; 
+}
+#imgfamilia{
+    width: 275px;
 }
