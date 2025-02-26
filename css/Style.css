@@ -1,47 +1,80 @@
 body {
-    font-family: Arial, sans-serif; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #3D3D3D;
+    line-height: 1.6;
 }
 
-
 .titulo {
-    font-size: 35px;
+    font-size: 33px;
     color: #3D3D3D;
-    background-color: #E1EDF2; /
+    background-color: #E1EDF2;
+    padding:10px;
     
 }
 
-
 h2 {
-    border-bottom: 2px solid #3D3D3D; 
-    padding-bottom: 5px; /
+    border-bottom: 2px solid #3D3D3D;
+    padding-bottom: 5px;
+    margin-top: 15px; /* Adiciona espaço acima do título */
 }
 
-
+/* Centralização da primeira imagem */
 .Matriz {
-    text-align: center; 
-    background-color: #F5F5F5; 
-    color: lightgray; 
-    padding: 10px 10px 25px 10px; 
-    margin: 50px 250px 50px 250px;
-    width: 550px;
+    text-align: center; /* Centraliza a imagem e a legenda */
+    background-color: #F5F5F5;
+    color: lightgray;
+    padding: 20px;
+    margin: 50px auto; /* Centraliza o contêiner */
+    max-width: 550px; /* Largura máxima */
+    width: 100%; /* Adapta-se ao tamanho da tela */
+    box-sizing: border-box; /* Inclui padding na largura total */
 }
+
 #imgmatriz {
-    width: 550px;
+    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    height: auto;
 }
+
+/* Alinhamento da segunda imagem à direita */
 .Familia {
     float: right;
-    background-color:#F5F5F5 ;
+    background-color: #F5F5F5;
     color: lightgray;
-    width: 275px;
-    padding: 10px 10px 25px 10px; 
-}
-#imgfamilia{
-    width: 275px;
+    padding: 20px;
+    margin: 0 0 20px 20px; /* Margem para não encostar no texto */
+    max-width: 275px; /* Largura máxima */
+    width: 100%; /* Adapta-se ao tamanho da tela */
+    box-sizing: border-box; /* Inclui padding na largura total */
 }
 
-.linha{
+#imgfamilia {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    height: auto;
+}
+
+/* Limpa o float para evitar problemas de layout */
+.linha::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.linha {
     margin-bottom: 70px;
 }
+
 figcaption {
     color: rgb(71, 69, 69);
+    margin-top: 10px; /* Adiciona espaço acima da legenda */
+}
+
+.link_para_contato {
+    color: rgb(228, 47, 47);
+    text-decoration: none;
+}
+
+.link_para_contato:hover {
+    text-decoration: underline;
 }

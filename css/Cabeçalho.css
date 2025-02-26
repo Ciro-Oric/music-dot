@@ -11,10 +11,13 @@ body{
 .cabecalho {
     background-color: #2D5377;
     color: white;
-    
+    font-size: 30px;
 }
 a {
     color: inherit; /* Cor herdada do parente */
     text-decoration: inherit; /* Decoração herdada do parente */
-    font-size: 50px;
+    
+}
+.texto{
+    font-size: 30px;
 }
